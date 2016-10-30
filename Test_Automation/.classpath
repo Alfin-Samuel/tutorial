@@ -20,5 +20,6 @@
 	<classpathentry kind="lib" path="C:/selenium-java-3.0.0/lib/phantomjsdriver-1.3.0.jar"/>
 	<classpathentry kind="lib" path="C:/selenium-java-3.0.0/client-combined-3.0.0-nodeps.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Alfin Samuel/Downloads/testng-6.1.1-sources.jar/testng-6.1.1-sources.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

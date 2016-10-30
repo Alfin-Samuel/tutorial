@@ -20,4 +20,26 @@ public class HomePage_Objects {
 	
 	@FindBy(xpath="//button[@type='submit']")
 	WebElement Signin;
+	
+	@FindBy(id="header-home")
+	WebElement Home_btn;
+	
+	public WebElement Email()
+	{
+		   return Email;
+	}
+	
+	public WebElement Password()
+	{
+		   return Password;
+	}
+	
+	public WebElement Signin()
+	{
+		   return Signin;
+	}
+	public WebElement Home_btn()
+	{
+		   return Home_btn;
+	}
 }

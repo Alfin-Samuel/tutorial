@@ -6,13 +6,4 @@
       <class name="Tests.logintest"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="Tests.logintest">
-        <methods>
-          <include name="login_correct"/>
-        </methods>
-      </class> <!-- Tests.logintest -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

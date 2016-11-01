@@ -15,7 +15,7 @@ public class HomePage_Objects {
 	@FindBy(xpath="//input[@placeholder='Email Address']")
 	WebElement Email;
 	
-	@FindBy(id="ember469")
+	@FindBy(id="ember428")
 	WebElement Password;
 	
 	@FindBy(xpath="//button[@type='submit']")
@@ -23,6 +23,17 @@ public class HomePage_Objects {
 	
 	@FindBy(id="header-home")
 	WebElement Home_btn;
+	
+	@FindBy(xpath="//*[@class='error-message-light']")
+	WebElement incorrect_cred;
+	
+	@FindBy(xpath="//img[@alt='avatar']")
+	WebElement sign_avatar;
+	
+	@FindBy(xpath="//span[@class='username']")
+	WebElement name_avatar;
+	
+	
 	
 	public WebElement Email()
 	{
@@ -42,4 +53,17 @@ public class HomePage_Objects {
 	{
 		   return Home_btn;
 	}
+	public WebElement incorrect_cred()
+	{
+		return incorrect_cred;
+	}
+	public WebElement sign_avatar()
+	{
+		return sign_avatar;
+	}
+	public WebElement name_avatar()
+	{
+		return sign_avatar;
+	}
+	
 }

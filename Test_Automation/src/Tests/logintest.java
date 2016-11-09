@@ -2,13 +2,11 @@ package Tests;
 
 import java.io.IOException;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import PageObjects.HomePage_Objects;
-import junit.framework.Assert;
 
-
-@SuppressWarnings("deprecation")
 public class logintest extends testbase {
 
 	HomePage_Objects hpg;
@@ -17,8 +15,7 @@ public  logintest() throws IOException {
 	login();
 	hpg=new HomePage_Objects(driver);
 }
-	
-@SuppressWarnings("deprecation")
+
 @Test
 public void a_incorrect_login() throws IOException, InterruptedException
 {
@@ -44,5 +41,6 @@ public void b_correct_login() throws IOException, InterruptedException
 	Thread.sleep(5000);
 	hpg.sign_avatar().click();
     driver.close();
+    
 }
 }

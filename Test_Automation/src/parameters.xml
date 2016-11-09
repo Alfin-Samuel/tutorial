@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation Test">
+
+	<test name="Signup_Test1">
+		<parameter name="username" value="alfin" />
+		<parameter name="emailid" value="" />
+		<parameter name="password" value="" />
+		<parameter name="rptpassword" value="" />
+		<parameter name="iama" value="Physician" />
+		<parameter name="speciality" value="Critical Care" />
+		<parameter name="accept" value="" />
+		
+		<classes>
+			<class name="Tests.signuptest" />
+		</classes>
+	</test>
+	
+	<test name="Signup_Test2">
+		<parameter name="username" value="alfin" />
+		<parameter name="emailid" value="" />
+		<parameter name="password" value="" />
+		<parameter name="rptpassword" value="" />
+		<parameter name="iama" value="Physician" />
+		<parameter name="speciality" value="Critical Care" />
+		<parameter name="accept" value="yes" />
+		
+		<classes>
+			<class name="Tests.signuptest" />
+		</classes>
+	</test>
+	
+	<test name="Login_Tests">
+	
+	
+		<classes>
+			<class name="Tests.logintest" />
+		</classes>
+	</test>
+	
+</suite>	
+	

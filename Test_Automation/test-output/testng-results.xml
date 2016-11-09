@@ -1,21 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19501" started-at="2016-11-01T06:44:10Z" finished-at="2016-11-01T06:44:29Z">
+  <suite name="Automation Test" duration-ms="27156" started-at="2016-11-09T06:32:18Z" finished-at="2016-11-09T06:32:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19501" started-at="2016-11-01T06:44:10Z" finished-at="2016-11-01T06:44:29Z">
+    <test name="Signup_Test1" duration-ms="1907" started-at="2016-11-09T06:32:18Z" finished-at="2016-11-09T06:32:20Z">
+      <class name="Tests.signuptest">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.signuptest@6db9f5a4]" name="login" duration-ms="1859" started-at="2016-11-09T01:32:18Z" finished-at="2016-11-09T01:32:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alfin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Physician]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Critical Care]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Tests.signuptest -->
+    </test> <!-- Signup_Test1 -->
+    <test name="Signup_Test2" duration-ms="4019" started-at="2016-11-09T06:32:20Z" finished-at="2016-11-09T06:32:24Z">
+      <class name="Tests.signuptest">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.signuptest@6236eb5f]" name="login" duration-ms="4016" started-at="2016-11-09T01:32:20Z" finished-at="2016-11-09T01:32:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alfin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Physician]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Critical Care]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Tests.signuptest -->
+    </test> <!-- Signup_Test2 -->
+    <test name="Login_Tests" duration-ms="21113" started-at="2016-11-09T06:32:24Z" finished-at="2016-11-09T06:32:45Z">
       <class name="Tests.logintest">
-        <test-method status="PASS" signature="a_incorrect_login()[pri:0, instance:Tests.logintest@291b4bf5]" name="a_incorrect_login" duration-ms="5713" started-at="2016-11-01T02:44:10Z" finished-at="2016-11-01T02:44:15Z">
+        <test-method status="PASS" signature="a_incorrect_login()[pri:0, instance:Tests.logintest@7c83dc97]" name="a_incorrect_login" duration-ms="5942" started-at="2016-11-09T01:32:24Z" finished-at="2016-11-09T01:32:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a_incorrect_login -->
-        <test-method status="PASS" signature="b_correct_login()[pri:0, instance:Tests.logintest@291b4bf5]" name="b_correct_login" duration-ms="13743" started-at="2016-11-01T02:44:15Z" finished-at="2016-11-01T02:44:29Z">
+        <test-method status="PASS" signature="b_correct_login()[pri:0, instance:Tests.logintest@7c83dc97]" name="b_correct_login" duration-ms="15166" started-at="2016-11-09T01:32:30Z" finished-at="2016-11-09T01:32:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- b_correct_login -->
       </class> <!-- Tests.logintest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Login_Tests -->
+  </suite> <!-- Automation Test -->
 </testng-results>

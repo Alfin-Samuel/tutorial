@@ -10,7 +10,7 @@ import PageObjects.Signup_objects;
 
 public class signuptest extends testbase_signup {
 
-	Signup_objects spg;
+	public Signup_objects spg;
 public  signuptest() throws IOException, InterruptedException {
 	// TODO Auto-generated constructor stub
 	login();
@@ -21,6 +21,7 @@ public  signuptest() throws IOException, InterruptedException {
 @Parameters({"username","emailid","password","rptpassword", "iama", "speciality", "accept"})
 
 public void login(String username, String emailid, String password, String rptpassword, String iama, String speciality, String accept ) throws InterruptedException{
+
 	spg.username().sendKeys(username);
 	spg.emailid().sendKeys(emailid);
 	spg.password().sendKeys(password);

@@ -8,33 +8,13 @@
   <parameter name="iama" value="Physician"/>
   <parameter name="username" value="alfin"/>
   <parameter name="accept" value="yes"/>
-  <test name="Signup_Test1">
-    <parameter name="speciality" value="Critical Care"/>
-    <parameter name="password" value=""/>
-    <parameter name="rptpassword" value=""/>
-    <parameter name="emailid" value=""/>
-    <parameter name="iama" value="Physician"/>
-    <parameter name="username" value="alfin"/>
-    <parameter name="accept" value=""/>
+  <test name="Login_Tests(failed)" preserve-order="true">
     <classes>
-      <class name="Tests.signuptest"/>
+      <class name="Tests.logintest">
+        <methods>
+          <include name="a_incorrect_login"/>
+        </methods>
+      </class> <!-- Tests.logintest -->
     </classes>
-  </test> <!-- Signup_Test1 -->
-  <test name="Signup_Test2">
-    <parameter name="speciality" value="Critical Care"/>
-    <parameter name="password" value=""/>
-    <parameter name="rptpassword" value=""/>
-    <parameter name="emailid" value=""/>
-    <parameter name="iama" value="Physician"/>
-    <parameter name="username" value="alfin"/>
-    <parameter name="accept" value="yes"/>
-    <classes>
-      <class name="Tests.signuptest"/>
-    </classes>
-  </test> <!-- Signup_Test2 -->
-  <test name="Login_Tests">
-    <classes>
-      <class name="Tests.logintest"/>
-    </classes>
-  </test> <!-- Login_Tests -->
+  </test> <!-- Login_Tests(failed) -->
 </suite> <!-- Failed suite [Automation Test] -->

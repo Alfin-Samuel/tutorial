@@ -1,1 +1,1 @@
-ANT clean compile run
+ANT clean compile run GenerateReports
